@@ -10,7 +10,7 @@ This is possible using Source engine's console call net_dumpeventstats. By calli
 
 Also included in this script is a C4 explosion time, i.e, how much time is left until the C4 explodes.
 
-![Console](hit_count.png)
+![](https://github.com/tiagomagnusss/csgo/blob/master/hit_count.jpg)
 
 ### Requirements
 
