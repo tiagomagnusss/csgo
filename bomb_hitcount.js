@@ -50,7 +50,7 @@ const onChange = data => {
 		}
 	} else if ( data.Name === 'player_hurt' ){
 		if ( counter === 2 ) {
-			lastHurt = lastHurt === undefined ? previous[data.Name].In : ( data.In - previous[data.Name].In );
+			lastHurt = lastHurt === undefined ? 0 : ( data.In - previous[data.Name].In );
 			hurt = lastHurt;
 		}
 		previous[data.Name] = data;
