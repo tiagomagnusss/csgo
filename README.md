@@ -22,4 +22,6 @@ Start CS:GO with `-netconport 2121` and then run `node bomb_hitcount.js 2121`. W
 
 ### Status
 
-WORKING
+NOT WORKING
+
+[This was finally fixed by Valve.](https://blog.counter-strike.net/index.php/2020/08/31476/)
